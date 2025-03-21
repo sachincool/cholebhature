@@ -7,6 +7,8 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Static HTML export
+  basePath: '', // Base path for your site
   eslint: {
     ignoreDuringBuilds: true,
   },

@@ -19,6 +19,14 @@ export default function LandingPage() {
         </p>
       </div>
 
+      {/* Free Site Offer Banner */}
+      <div className="w-full bg-yellow-400 text-black py-3 px-4 text-center">
+        <p className="text-sm md:text-base font-medium">
+          🎉 Special Offer: Get this website template for FREE when you feature{" "}
+          <span className="font-bold">Samridhi Luthra</span> as a cook! 👩‍🍳
+        </p>
+      </div>
+
       <header className="sticky top-0 z-40 bg-black text-yellow-400">
         <div className="container flex h-20 items-center justify-between py-4">
           <div className="flex items-center gap-2">
